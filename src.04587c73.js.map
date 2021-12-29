@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["f"],"mappings":";AAAA,SAASA,IACA,OAAA,EAGTA","file":"src.04587c73.js","sourceRoot":"..\\src","sourcesContent":["function f() {\n  return 0;\n}\n\nf();\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,OACE,cAAA,CACA,UAAA,CACA,4BAAA,CACA,eAAA,CACA","file":"style.df797005.css","sourceRoot":"..\\src","sourcesContent":[".title {\n  font-size: 30px;\n  color: blue;\n  font-family: \"Arial\", sans-serif;\n  font-weight: 500;\n  font-style: italic;\n}\n"]}
