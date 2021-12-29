@@ -1,5 +1,5 @@
 {
-  "name": "test_npm",
+  "name": "template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,8 @@
     "lint:css": "stylelint **/*.scss",
     "lint:js": "eslint ./src",
     "lint": "concurrently \"npm run lint:html\" \"npm run lint:css\" \"npm run lint:js\"",
-    "build": "rm -rf dist && parcel build ./src/index.html --public-url",
+    "prepare": "husky install && cp ./.husky/pre-commit ./.git/hooks/pre-commit",
+    "build": "rm -rf dist && parcel build ./src/index.html --public-url ./",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
